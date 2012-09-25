@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>Gawai</title>
+ <link href="http://gawai.github.com/atom.xml" rel="self"/>
+ <link href="http://gawai.github.com"/>
+ <updated>2012-09-25T19:41:53+07:00</updated>
+ <id>http://gawai.github.com</id>
+ <author>
+   <name>Gawai</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Halo dunia!</title>
+   <link href="http://gawai.github.com/2012/09/25/Halo-Dunia"/>
+   <updated>2012-09-25T00:00:00+07:00</updated>
+   <id>http://gawai.github.com/2012/09/25/Halo-Dunia</id>
+   <content type="html">&lt;p&gt;Lorem ipsum&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>

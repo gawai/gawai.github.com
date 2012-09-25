@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hello World!
-tagline: Supporting tagline
+tagline: Ini yang kau cari
 ---
 {% include JB/setup %}
 

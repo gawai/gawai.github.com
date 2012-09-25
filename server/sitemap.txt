@@ -1,0 +1,10 @@
+
+http://gawai.github.com/archive.html
+http://gawai.github.com/atom.xml
+http://gawai.github.com/categories.html
+http://gawai.github.com/index.html
+http://gawai.github.com/pages.html
+http://gawai.github.com/sitemap.txt
+http://gawai.github.com/tags.html
+
+http://gawai.github.com/2012/09/25/Halo-Dunia
