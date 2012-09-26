@@ -4,7 +4,6 @@
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
    <title>{{ page.title }}</title>
    <meta name="author" content="{{ site.author.name }}" />
-   
    <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="your title" type="application/atom+xml" />
 
    <!-- syntax highlighting CSS -->
@@ -12,21 +11,15 @@
 
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/screen.css" type="text/css" media="screen, projection" />
-   
-   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
 
    <!-- Typekit -->
-   <!--
    <script type="text/javascript" src="http://use.typekit.com/jpd0pfm.js"></script>
    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-   -->
-   
 </head>
 <body>
 
   <div class="site">
-    <!--
-	<div class="title">
+    <div class="title">
       <a href="{{ HOME_PATH }}">{{ site.title }}</a>
 
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Arsip</a>
@@ -34,7 +27,6 @@
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.categories_path }}">Kategori</a>
       <a class="extra" href="{{ BASE_PATH }}{{ site.JB.tags_path }}">Label</a>
     </div>
-	-->
   
     {{ content }}
   
@@ -58,18 +50,16 @@
           <a href="http://twitter.com/{{ site.author.twitter }}/">twitter.com/{{ site.author.twitter }}</a><br />
         </p>
       </div>
-	  
+	  -->
       
 	  <div class="rss">
         <a href="http://feeds.feedburner.com/{{ site.author.feedburner }}">
           <img src="{{ ASSET_PATH }}/images/rss.png" alt="Subscribe to RSS Feed" />
         </a>
       </div>
-	  -->
-	  
     </div>
   </div>
-  <!-- <a href="http://github.com/{{ site.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a> -->
+  <a href="http://github.com/{{ site.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
 
   {% include JB/analytics %}
 </body>

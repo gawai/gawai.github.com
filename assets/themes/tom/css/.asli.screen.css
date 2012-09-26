@@ -16,15 +16,14 @@ html, body {
 }
 
 body {
-  background-color: #f9f9f9;
-  font-size: 100%;
-  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  font: 13.34px helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 187.5%;
+  font-size: 100%;
 }
 
 h1 {
@@ -35,18 +34,18 @@ p {
   margin: 1em 0;
 }
 
-a, a:visited {
-  color: rgb(96, 120, 144);
+a {
+  color: #00a;
 }
 
 a:hover {
   color: black;
 }
-/*
+
 a:visited {
   color: #a0a;
 }
-*/
+
 table {
   font-size: inherit;
   font: 100%;
