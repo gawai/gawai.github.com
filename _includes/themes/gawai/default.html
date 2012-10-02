@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <meta name="author" content="{{ site.author.name }}" />
+
+    <link href="http://feeds.feedburner.com/{{ site.author.feedburner }}" rel="alternate" title="your title" type="application/atom+xml" />
+    	
+	<!-- CSS by Twitter Bootstrap -->
+	<link rel="stylesheet" href="{{ ASSET_PATH }}/css/bootstrap.css">
+	<style>
+      body {
+        padding-top: 30px;
+      }
+    </style>
+	
+	<!-- Font by Google Web Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+	
+	<!-- Icons by Font Awesome -->
+	<link rel="stylesheet" href="{{ ASSET_PATH }}/css/font-awesome.css">
+	
+	<!-- Favicon and touch icons ------------------
+    <link rel="shortcut icon" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png"> -->
+  </head>
+
+  <body>
+    <div class="container" style="max-width: 724px;">
+    
+    <ul class="nav nav-pills">
+	  <li><a href="{{ HOME_PATH }}" title="Beranda"><strong>Gawai.net</strong></a></li>
+	  <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}" title="Arsip"><i class="icon-folder-close"></i></a></li>
+	  <!--<li><a href="http://feeds.feedburner.com/{{ site.author.feedburner }}" title="Feed"><i class="icon-rss"></i></a></li>-->
+	  <li><a href="{{ BASE_PATH }}{{ site.JB.about_path }}" title="Informasi"><i class="icon-info-sign"></i></a></li>
+      
+	  <!--
+	  <li class="pull-right"><a href="#"><i class="icon-twitter-sign"></i></a></li>
+      <li class="pull-right"><a href="#"><i class="icon-facebook-sign"></i></a></li>
+	  -->	
+    </ul>
+
+	{{ content }}
+	
+    <footer style="margin-top: 30px; border-top: 1px solid grey; font-family: serif">
+	  <small>
+	  &copy {{ site.author.name }} 2012</br>
+	  Terima kasih buat <a href="http://jekyllbootstrap.com/" target="_blank">Jekyllbootstrap</a> dan <a href="http://github.com/" target="_blank">Github</a>.
+	  </small>
+	</footer>
+	
+	</div><!-- container -->
+	<!--{% include JB/analytics %}-->
+	</body>
+</html>
