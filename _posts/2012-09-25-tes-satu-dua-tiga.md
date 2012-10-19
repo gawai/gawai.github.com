@@ -4,7 +4,8 @@ title: "Tes Satu Dua Tiga"
 description: ""
 category: 
 tags: []
-teaser: Lorem ipsum
+excerpt: Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin vel nibh vel enim hendrerit cursus. Etiam id nulla est. Vivamus ut tellus dolor, vitae ultrices enim. Nullam facilisis magna non libero ornare congue. Suspendisse nec dolor eget nisl ullamcorper imperdiet. Aenean tortor nunc, porta congue rhoncus ut, faucibus eget lacus. In sed justo id urna hendrerit eleifend. Mauris hendrerit mattis diam, id interdum eros laoreet eu. Donec commodo iaculis justo eu gravida. Quisque urna mi, dapibus quis faucibus blandit, imperdiet a sapien.
+teaser: Lorem ipsum ipsum
 ---
 {% include JB/setup %}
 
