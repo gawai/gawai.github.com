@@ -9,7 +9,7 @@ teaser: Akses situs yang diblokir
 ---
 {% include JB/setup %}
 
-<p>DNS (Domain Name System) sederhananya adalah sebuah "buku telepon" yang menerjemahkan nama situs web (gawai.net) yang mudah kita ingat menjadi alamat protokol internet (IP) (192.xxx.xxx.xxx) yang dimengerti oleh komputer.</p>
+<p>DNS (Domain Name System) sederhananya adalah sebuah "buku telepon" yang menerjemahkan nama situs web (gawai.net) yang mudah kita ingat menjadi alamat protokol Internet (IP) (192.xxx.xxx.xxx) yang dimengerti oleh komputer.</p>
 
 <p>Normalnya, kita memakai layanan DNS dari pihak penyedia layanan Internet (ISP). Tapi sebenarnya ada banyak layanan DNS alternatif di luar sana seperti <a href="https://developers.google.com/speed/public-dns/">Google Public DNS</a>, <a href="http://www.opendns.com/">OpenDNS</a>, dan <a href="http://www.nawala.org/">Nawala</a> (lokal punya).</p>
 
