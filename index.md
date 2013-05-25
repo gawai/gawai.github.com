@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Halo Dunia!
+title: Happy Geek Pride Day - 25/5/2013!
 tagline: 
 ---
 {% include JB/setup %}
